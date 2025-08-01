@@ -10,7 +10,7 @@ function Viewer() {
 
   useEffect(() => {
     return () => {
-      webrtc.stopAll(); // Clean up
+      webrtc.stopAll(); 
     };
   }, []);
 
